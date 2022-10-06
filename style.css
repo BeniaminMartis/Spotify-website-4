@@ -34,7 +34,7 @@ header {
   padding-top: 40px;
   text-align: center;
 }
-/* /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* ////FACEBOOK GOOGLE///FACEBOOK GOOGLE///FACEBOOK GOOGLE////FACEBOOK GOOGLE////FACEBOOK GOOGLE///FACEBOOK GOOGLE////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .sign-up {
   display: flex;
@@ -85,4 +85,29 @@ header {
   outline-offset: 3px;
   }
   
-  
+  /* //LINE BREAK//LINE BREAK///LINE BREAK////LINE BREAK///LINE BREAK///LINE BREAK///LINE BREAK//LINE BREAK///////////////////////////////////////////////////////////////////////////////////////// */
+
+.line-break::after, .line-break::before {
+  content: ' ' ;
+  position: absolute;
+  margin: auto;
+  height: 2px;
+  background: lightgray;
+  width: 40%;
+  top:40%
+}
+
+.line-break::after {
+  left:0;
+
+}
+.line-break::before {
+  right:0;
+}
+
+.line-break {
+  text-align: center;
+  position:relative;
+  color: lightgray;
+  }
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
