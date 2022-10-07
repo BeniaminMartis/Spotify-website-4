@@ -22,26 +22,27 @@
     <a class="btn google-sign-up" href="https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?response_type=code&access_type=offline&client_id=1046568431490-ij1gi5shcp2gtorls09frkc56d4mjbe2.apps.googleusercontent.com&state=AQChgES7cy9sfZyssW3Jc2XamGG%2F87UgRXUpOJZTSgZ1RKtJ9i%2BDQupRVRTJ5o9DPHaEP0eGo9C846qdrXXfqUhFEpQucGuDvwdxlyCpGhYbWL%2FftLkoOfbFhByeOFZ4buvTcAabTQZx7LGIM0knMrtP0i5jdRWq%2BuzVQ2xBaUKPX3qJSjHImKZqON72WhgfKiA0IhUXUZL1YS7kWmKD3k8nmqkEuoYOZnNMvWifG8upNIgObFkeb2936ODZCaVdSH8%3D&scope=profile%20email%20openid&redirect_uri=https%3A%2F%2Faccounts.spotify.com%2Flogin%2Fgoogle%2Fredirect%2Fsignup&flowName=GeneralOAuthFlow">Sign up with Google</a>
     </div>
     <h2 class="line-break">or</h2>
+    <h2 class="title-email">Sign up with your email address</h2>
 <!-- This is an Email Form -->
-    <div>
-      <label for="">What's your email?</label>
+    <div class="email">
+      <label for="email">What's your email?</label>
       <input type="email" name="login-email" id="Whats-your-email?" autofocus placeholder="Enter your email.">
     </div>
-    <div>
-      <label for="">Confirm your email</label>
+    <div class="email">
+      <label for="email">Confirm your email</label>
       <input type="email" name="login-email" id="Confirm your email" autofocus placeholder="Enter your email again.">
     </div>
 <!-- This is a Password Form -->
-    <div>
+    <div class="email">
       <label for="">Create a password</label>
       <input type="password" name="login-password" id="Create a password" autofocus placeholder="Create a password.">
     </div>
 <!-- Name Form -->
-    <div>
+    <div class="email">
       <label for="">What should we call you?</label>
       <input type="text" name="login-password" id="What should we call you?" autofocus placeholder="Enter a profile name.">
-      <p>This appears on your profile.</p>
     </div>
+    <p>This appears on your profile.</p>
 
     <div>
       <label for="day">Day</label><input type="text" name="day" id="day" placeholder="DD">
@@ -50,18 +51,18 @@
 <!--  Drop Down Form -->
       <label for="month">Month</label>
       <select name="month" id="month" placeholder="Month">
-        <option value="month">January</option>
-        <option value="month">February</option>
-        <option value="month">March</option>
-        <option value="month">April</option>
-        <option value="month">May</option>
-        <option value="month">June</option>
-        <option value="month">July</option>
-        <option value="month">August</option>
-        <option value="month">September</option>
-        <option value="month">October</option>
-        <option value="month">November</option>
-        <option value="month">December</option>
+        <option value="January">January</option>
+        <option value="February">February</option>
+        <option value="March">March</option>
+        <option value="April">April</option>
+        <option value="May">May</option>
+        <option value="June">June</option>
+        <option value="July">July</option>
+        <option value="August">August</option>
+        <option value="September">September</option>
+        <option value="October">October</option>
+        <option value="November">November</option>
+        <option value="December">December</option>
       </select>
     </div>
     <div>
@@ -109,6 +110,7 @@
      <label for="login-remember">
       <input type="checkbox" name="login-remember" id="login-remember"> Share my registration data with Spotify's content providers for marketing purposes. Note that your data may be transferred to a country outside of the EEA as described in our privacy policy.
     </label>
+    <button>Sign In</button>  
       <!-- //////////////////////////////////////////////////// -->
   </div>
 

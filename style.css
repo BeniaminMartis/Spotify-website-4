@@ -110,4 +110,15 @@ header {
   position:relative;
   color: lightgray;
   }
-/* ///////////////////////////////////////////////////////////////////////////////////////// */
+/* ///Email Email FormEmail FormEmail FormEmail Form/Email Form/Email Form//////////////////////////////////////Email Form//////////////////////////////////////////////Email Form */
+
+.title-email {
+  font-size: 20px ;
+  text-align: center;
+}
+
+.email {
+  font-size: 14px;
+  font-weight: 600;
+  display: grid;
+}
