@@ -117,8 +117,62 @@ header {
   text-align: center;
 }
 
-.email {
+.form-field {
   font-size: 14px;
   font-weight: 600;
   display: grid;
+  padding: 0 0 20px;
+}
+
+.form-field__label{
+  padding: 14px 0;
+}
+
+.form-field__input{
+  padding: 14px;
+  border-radius: 5px;
+  border:1px solid gray;
+}
+
+.par-appears {
+  padding-top: 10px;
+  text-decoration-style: none;
+  font-weight: normal;
+}
+/* /Dropdown/Dropdown/Dropdown/Dropdown/Dropdown/Dropdown/Dropdownv/////////////////////////////////////////// */
+.form-field__labels{
+  padding: 14px 0;
+  font-weight: normal;
+}
+
+.drop-down-form {
+  font-weight: normal;
+  display:flex;
+  
+}
+
+.form-field__group {
+  display: flex;
+  gap: 20px;
+  text-align: left;
+}
+
+#day {
+  padding:14px;
+  width: 90px;
+}
+
+#month {
+  width: 202.5px;
+}
+
+#year {
+width: 112.5px
+}
+/* form-field-radio-btnform-field-radio-btnform-field-radio-btnform-field-radio-btnform-field-radio-btn */
+
+.form-field-radio-btn {
+  gap: 20px;
+  display: flex;
+  text-align: left
 }
