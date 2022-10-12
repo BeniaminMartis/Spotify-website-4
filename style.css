@@ -172,7 +172,70 @@ width: 112.5px
 /* form-field-radio-btnform-field-radio-btnform-field-radio-btnform-field-radio-btnform-field-radio-btn */
 
 .form-field-radio-btn {
-  gap: 20px;
+  gap: 20px 30px;
   display: flex;
-  text-align: left
+  font-weight: normal;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
+
+.form-field-radio-btn input{
+  margin-right: 10px;
+}
+/* this is a checkbox Formthis is a checkbox Formthis is a checkbox Formthis is a checkbox Formthis is a checkbox Formthis is a checkbox Formthis is a checkbox Form */
+
+.checkbox-Form {
+  padding: 20px 0;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.par-term-conditions {
+  font-size: 13px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.par-term-conditions p {
+  margin: 10px 0;
+}
+
+a {
+  color: #1ed760;
+}
+
+a:hover {
+  color: #169c46;
+}
+
+.signup-submit{
+ display: flex;
+ justify-content: center;
+}
+
+.btn-sign-up {
+  background: #1ed760;
+  padding: 12px 35px;
+  color: black;
+  text-decoration: none;
+  border: 2px solid #1ed760;
+  vertical-align: middle;
+  font-size: 14px;
+  border-radius: 38px;
+
+}
+.btn-sign-up:hover {
+  transform: scale(1.04);
+  background: #1ed760;
+  color: black;
+}
+
+.btn-sign-up:active {
+  background: #169c46;
+  }
+  
+.btn-sign-up:focus {
+  outline: 3px solid black;
+  outline-offset: 3px;
+} 
+ 
